@@ -1,1 +1,2 @@
-* `docker ps` -> Lista os containers que estão em execução no momento.
+* `docker run` -> Para executar um container
+docker container run -> para executar um comando
