@@ -19,3 +19,6 @@ docker container run -d nginx --> para rodar em background modo deamon plano de 
 docker exec -it <imagem> --> para executar uma imagem up
 docker container run -d -p 8080:80 nginx
  --> comando para adicionar a porta deve utilizar o -p depois o número da porta.
+docker container stop <imagem> ou docker container start --> um comando serve para parar e o outro para iniciar
+docker container ls -qa --> comando serve para listar apenas os id das imagens
+docker container rm -f <imagem> --> o -f é para forçar a remoção da imagem sem precisar parar
