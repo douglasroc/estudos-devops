@@ -8,4 +8,11 @@ docker ps -a -> O docker ps tem a mesma função de listar containers porém é 
 docker container run -it ubuntu /bin/bash
  --> comando -it para criar o container em modo interativo
 docker container run -t ubuntu /bin/bash
+<<<<<<< HEAD
  --> comando --rm -it para criar o container em modo interativo e quando sair do container excluir a imagem
+=======
+ --> comando -t para criar o container em modo interativo
+docker container run -t ubuntu /bin/bash
+ --> comando --rm -t para criar o container em modo interativo e quando sair do container excluir a imagem
+docker container run -d nginx --> para rodar em background modo deamon plano de fundo em segundo plano
+>>>>>>> 5097c2f (adicionado comando docker container run -d)
