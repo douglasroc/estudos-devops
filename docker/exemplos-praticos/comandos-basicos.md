@@ -17,3 +17,5 @@ docker container run -t ubuntu /bin/bash
 docker container run -d nginx --> para rodar em background modo deamon plano de fundo em segundo plano
 >>>>>>> 5097c2f (adicionado comando docker container run -d)
 docker exec -it <imagem> --> para executar uma imagem up
+docker container run -d -p 8080:80 nginx
+ --> comando para adicionar a porta deve utilizar o -p depois o número da porta.
