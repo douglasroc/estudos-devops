@@ -16,3 +16,4 @@ docker container run -t ubuntu /bin/bash
  --> comando --rm -t para criar o container em modo interativo e quando sair do container excluir a imagem
 docker container run -d nginx --> para rodar em background modo deamon plano de fundo em segundo plano
 >>>>>>> 5097c2f (adicionado comando docker container run -d)
+docker exec -it <imagem> --> para executar uma imagem up
