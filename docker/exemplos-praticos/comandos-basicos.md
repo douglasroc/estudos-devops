@@ -22,3 +22,5 @@ docker container run -d -p 8080:80 nginx
 docker container stop <imagem> ou docker container start --> um comando serve para parar e o outro para iniciar
 docker container ls -qa --> comando serve para listar apenas os id das imagens
 docker container rm -f <imagem> --> o -f é para forçar a remoção da imagem sem precisar parar
+docker container rm -f 
+--> comando para eliminar todos os containers de uma só vez (Ele remove forçando, todos os containers que seriam listado pelo comando ls -qa
