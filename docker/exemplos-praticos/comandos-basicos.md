@@ -24,3 +24,5 @@ docker container ls -qa --> comando serve para listar apenas os id das imagens
 docker container rm -f <imagem> --> o -f é para forçar a remoção da imagem sem precisar parar
 docker container rm -f 
 --> comando para eliminar todos os containers de uma só vez (Ele remove forçando, todos os containers que seriam listado pelo comando ls -qa
+docker logs ID --> Para mostrar os logs do container
+docker container -e --> O -e é para passar a variavel de ambiente
